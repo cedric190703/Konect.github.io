@@ -5,3 +5,179 @@
     list-style: none;
 }
 
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+    font-family: 'Roboto', sans-serif;
+    background-color: #032f47;
+    color: white;
+}
+
+header {
+    display: flex;
+    grid-gap: 20%;
+    position: sticky;
+    color: white;
+}
+
+.Logo img{
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+ul {
+    margin-top: 4%;
+    font-size: large;
+    display: flex;
+    grid-gap: 5%;
+    width: 80%;
+}
+
+ul li {
+    transition: all 0.5s;
+}
+
+ul li:hover {
+    text-decoration: underline;
+    font-size: x-large;
+    color: #119eda;
+}
+
+.slider {
+    overflow: hidden;
+    margin: 1% 1% 7% 5%;
+    border-radius: 25px;
+    width: 58%;
+    transform: translateY(-2%);
+}
+
+.imgs {
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgs img {
+    height: 745px;
+    width: 100%;
+}
+
+.arrows {
+    display: flex;
+    position: absolute;
+    grid-gap: 1280%;
+}
+
+.arrows img {
+    width: 40px;
+    z-index: 100;
+    margin-top: 435%;
+}
+
+button {
+    font-size: large;
+    height: 40px;
+    width: 110%;
+    border-radius: 15px;
+    transform: translateY(-25%);
+}
+
+button:hover {
+    background-color:#171f38;
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.second {
+    text-align: center;
+    width: 30%;
+}
+
+.descriptive {
+    position: absolute;
+    top: 4%;
+    text-align: center;
+    color: white;
+    background-color: #0a39537d;
+    border-radius: 15px;
+    left: 10%;
+    right: 10%;
+}
+
+.prom {
+    background-color: #171f38;
+}
+
+.firsT {
+    text-align: center;
+    margin-bottom: 5%;
+    padding-top: 2%;
+}
+
+#theOne {
+    text-align: center;
+    color: #15a0db;
+}
+
+.mail,
+.calendar,
+.messages,
+.visios,
+.cloud,
+.cloudNew1,
+.cloudNew2,
+.aviS {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.mailOne,
+.calendarOne,
+.messagesOne,
+.visiosOne,
+.cloudOne,
+.cloudNew1One,
+.cloudNew2One {
+    width: 30%;
+    margin: 8%;
+}
+
+.mailOne h3,
+.calendarOne h3,
+.messagesOne h3,
+.visiosOne h3 {
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+.prom img {
+    width: 800px;
+    height: 500px;
+}
+
+.flex {
+    display: flex;
+}
+
+.aviS {
+    margin: 0% 15%;
+}
+
+.avis {
+    transform: translateY(-25%);
+}
+
+.avisTwo {
+    margin-top: 8%;;
+    width: 750px;
+    margin-left: 8%;
+}
+
+.btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 2% 50%;
+}
