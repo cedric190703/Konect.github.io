@@ -273,3 +273,36 @@ a{
 .pkKo h2 {
     margin-bottom: 2%;
 }
+
+.pk {
+    width: 50%;
+    margin: 0% 25%;
+}
+
+.right input {
+    width: 480px;
+    height: 50px;
+}
+
+.right select {
+    width: 480px;
+    height: 50px;
+}
+
+.res {
+    display: flex;
+}
+
+.left {
+    margin: 2% 0 5% 15%;
+
+}
+
+.right {
+    margin: 2% 10% 5% 0;
+}
+
+.flex2 {
+    display: flex;
+    
+}
