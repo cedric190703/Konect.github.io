@@ -14,22 +14,21 @@ body {
 
 header {
     display: flex;
-    grid-gap: 20%;
     position: sticky;
     color: white;
+    grid-gap: 20%;
+    margin-bottom: 2%;
 }
 
-.Logo img{
-    width: 80%;
-    border-radius: 50%;
-    margin-left: 5%;
+.Logo img {
+    margin: 7% 50% 2% 10%;
 }
 
 ul {
+    display: flex;
     margin-top: 4%;
     font-size: large;
-    display: flex;
-    grid-gap: 5%;
+    grid-gap: 3%;
     width: 80%;
 }
 
@@ -83,6 +82,7 @@ button {
 
 button:hover {
     background-color:#171f38;
+    border: 2px solid white;
     color: white;
 }
 
@@ -180,4 +180,96 @@ button:hover {
     width: 40px;
     height: 40px;
     margin: 2% 50%;
+}
+
+footer {
+    background-color: #171f38;
+}
+
+.input {
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.input button {
+    width: 25%;
+    height: 50px;
+    margin-left: 5%;
+    transform: translateY(0%);
+}
+
+input {
+    width: 60%;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.newsletter {
+    border: 2px solid white;
+    margin: 0 25% 5%;
+    padding: 1%;
+}
+
+.final {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+.final a:hover {
+    text-decoration: underline;
+}
+
+.reseaux {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.reseaux img {
+    width: 3%;
+}
+
+.prix {
+    display: flex;
+    margin: 2%;
+}
+
+.prix ul {
+    display: block;
+}
+
+.free,
+.professionnel,
+.business,
+.entreprise {
+    width: 20%;
+    padding: 2%;
+    border: 2px solid rgb(16, 132, 198);
+    border-radius: 15px;
+    margin: 2% 3%;
+}
+
+.free p,
+.professionnel p,
+.business p,
+.entreprise p {
+    margin-top: 5%;
+}
+
+.prix button {
+    margin-top: 15%;
+    width: 75%;
+    height: 50px;
+    background-color: #04acf4;
+}
+
+.pkKo p,
+.pkKo h2 {
+    margin-bottom: 2%;
 }
