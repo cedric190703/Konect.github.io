@@ -1,0 +1,62 @@
+@media screen and (max-width: 1600px ){
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .free,
+    .professionnel,
+    .business,
+    .entreprise {
+        padding: 1%;
+        margin: 2% 2%;
+    }
+
+    .free h1,
+    .professionnel h1,
+    .business h1,
+    .entreprise h1 {
+        font-size: large;
+    }
+
+    .free button,
+    .professionnel button,
+    .business button,
+    .entreprise button {
+        font-size: small;
+    }
+
+    .prix {
+        margin-left: 10%;
+    }
+
+    .detail {
+        font-size: small;
+    }
+
+    .pk h1 {
+        font-size: x-large;
+    }
+
+    .pk {
+        width: 60%;
+    }
+
+    .produit h1{
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .free button,
+    .professionnel button,
+    .business button,
+    .entreprise button {
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .prom {
+        display: block;
+    }
+}

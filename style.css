@@ -153,8 +153,8 @@ button:hover {
 }
 
 .prom img {
-    width: 800px;
-    height: 500px;
+    width: 82%;
+    height: 400px;
 }
 
 .flex {
@@ -177,6 +177,7 @@ button:hover {
 
 footer {
     background-color: #171f38;
+    width: 100%;
 }
 
 .input {
