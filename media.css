@@ -1,5 +1,50 @@
-@media screen and (max-width: 1600px ){
-    
+@media screen and (max-width: 1300px ){
+    .text2 button {
+        width: 100px;
+        font-size: small;
+    }
+
+    .arrows {
+        grid-gap: 650%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 1400px ){
+    header {
+        display: flex;
+        position: sticky;
+        color: white;
+        grid-gap: 20%;
+        margin-bottom: 2%;
+    }
+
+    .arrows {
+        grid-gap: 850%;
+    }
+}
+
+@media screen and (max-width: 1700px ){
+    .arrows {
+        grid-gap: 1075%;
+    }
+
+    header {
+        grid-gap: 5%;
+    }
+}
+
+@media screen and (max-width: 1500px ){
+    header {
+        grid-gap: -50%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -53,10 +98,70 @@
     .entreprise button {
         font-size: x-small;
     }
+
+    .avis {
+        transform: translateY(5%)
+    }
+
+    .avisTwo {
+        margin-right: 55%;
+    }
+
+    footer {
+        transform: translateY(15%)
+    }
+
+    .slider {
+        height: 500px;
+        width: 70%;
+    }
+
+    .second {
+        margin: 2% 25%;
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 800px) {
-    .prom {
+@media screen and (max-width: 900px) {
+    .prom img{
+        height: 300px;
+        width: 90%;
+        transform: translateY(30%);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mail,
+    .calendar,
+    .messages,
+    .visios,
+    .cloud,
+    .cloudNew1,
+    .cloudNew2,
+    .aviS {
         display: block;
+    }
+
+    .mailOne,
+    .calendarOne,
+    .messagesOne,
+    .visiosOne,
+    .cloudOne,
+    .cloudNew1One,
+    .cloudNew2One {
+        width: 80%;
+        margin: 10%;
+        text-align: center;
+    }
+
+    .mailTwo img,
+    .calendarTwo img,
+    .messagesTwo img,
+    .visiosTwo img,
+    .cloudTwo img {
+        width: 80%;
+        margin: 11%;
+        text-align: center;
+        transform: translateY(-20%);
     }
 }
